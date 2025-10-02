@@ -29,6 +29,8 @@ publish_output "vpc_id_prod" {
   value = deployment.prod.vpc_id
 }
 
+asdf
+
 publish_output "subnet_private_id_prod" {
   value = "asdfasdf"
 }
