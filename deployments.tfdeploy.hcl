@@ -12,6 +12,10 @@ deployment "prod" {
   }
 }
 
+fake_thing "example" {
+  name = "example"
+}
+
 # Publish outputs for downstream stacks
 publish_output "vpc_id_staging" {
   value = deployment.staging.vpc_id
